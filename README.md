@@ -1,14 +1,22 @@
-This project is a demonstration of implementing a Security Information and Event Management (SIEM) in Microsoft Sentinel previously known as Azure Sentinel
+# SIEM Implementation in Microsoft Sentinel
 
-SIEM Project Documentation is a detailed documentation that will give you all the answers that you would need. 
-Apologies for some of the blurry screenshots.
+This project is a demonstration of implementing a Security Information and Event Management (SIEM) system in Microsoft Sentinel, previously known as Azure Sentinel.
 
-Log_Exporter.ps1 is the PowerShell script that will use the API key to find the geolocation of the IP addresses that were used for the Brute Force attack. 
-DO NOT FORGET TO CHANGE THE API KEY WITH YOUR API KEY.
+## Documentation
 
-failed_rdp.log is the actual log file that I transferred from the honeypot - VM to my machine later. It has all logs of the attacks.
+[SIEM Project Documentation](https://github.com/harshitkumar-panwala/SIEM-in-Microsoft-Sentinel/blob/main/SIEM%20Project%20Documentation.pdf) is a detailed document that will give you all the answers that you would need. Apologies for some of the blurry screenshots.
 
-Dataflow Diagram.drawio has the dataflow diagram that I created for the documentation.
+## PowerShell Script
+
+[Log_Exporter.ps1](https://github.com/harshitkumar-panwala/SIEM-in-Microsoft-Sentinel/blob/main/Log_Exporter.ps1) is the PowerShell script that will use the API key to find the geolocation of the IP addresses that were used for the Brute Force attack. **DO NOT FORGET TO CHANGE THE API KEY WITH YOUR API KEY.**
+
+## Logs
+
+[failed_rdp.log](https://github.com/harshitkumar-panwala/SIEM-in-Microsoft-Sentinel/blob/main/failed_rdp.log) is the actual log file that I transferred from the honeypot VM to my machine later. It has all logs of the attacks.
+
+## Dataflow Diagram
+
+Dataflow Diagram.drawio can be added and viewed [here](https://app.diagrams.net/). It is the dataflow diagram that I created for the documentation.
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
